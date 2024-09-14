@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightseagreen;
+}
+.login {
+  border: 1px solid transparent;
+  width: 1000px;
+  height: 80vh;
+  background-color: white;
+  color: white;
+  border-radius: 20px;
+  background-size: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+  background-position: center;
+  overflow: hidden;
+  margin-left: 500px;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+form {
+  display: flex;
+  display: block;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 1000px;
+  flex-direction: column;
+  gap: 5px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 0px 5px 2px lightseagreen;
+  margin-bottom: 60px;
+}
+label {
+  font-size: 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+.fullname input {
+  margin-left: 35px;
+}
+.date-birth {
+  font-size: 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.date-birth input {
+  margin-left: 15px;
+}
+.Gender input {
+  margin-left: 55px;
+}
+.email input {
+  margin-left: 45px;
+}
+.pass input {
+  margin-left: 45px;
+}
+input {
+  border: 1px solid white;
+  background-color: lightseagreen;
+  height: 40px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+}
+button {
+  background: lightseagreen;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 100px;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 12px;
+  margin-left: 100px;
+}
